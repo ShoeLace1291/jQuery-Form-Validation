@@ -39,6 +39,7 @@ nesting structure, it will work fine.</p>
 <h2>Rechecking Before Submission</h2>
 
 <p>If you add "data-submit" to whichever element you use to submit the form, the script will revalidate all fields. If there are still errors, it will cancel form submission and will alert the user. If there are no errors, the form will be submitted.</p>
+
 ```
 <button type="submit" class="btn btn-primary" data-submit>Submit</button>
 ```
