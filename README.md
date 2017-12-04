@@ -24,7 +24,7 @@ A JavaScript form validation library that doesn't require any knowledge of JS to
     <input type="text" name="display_name" class="form-control" data-validate="required|alpha_numeric_dashes">
   </div>
   <div class="form-group">
-    <button class="btn btn-primary" data-submit>Submit</button>
+    <button type="submit" class="btn btn-primary" data-submit>Submit</button>
   </div>
 </form>
 ```
@@ -39,7 +39,7 @@ nesting structure, it will work fine.</p>
 <h2>Rechecking Before Submission</h2>
 
 ```
-<button class="btn btn-primary" data-submit>Submit</button>
+<button type="submit" class="btn btn-primary" data-submit>Submit</button>
 ```
 <p>If you add "data-submit" to whichever element you use to submit the form, the script will revalidate all fields. If there are still errors, it will cancel form submission and will alert the user. If there are no errors, the form will be submitted.</p>
 <h2>All rules must return true for the field to be valid.</h2>
