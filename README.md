@@ -69,3 +69,7 @@ A JavaScript form validation library that doesn't require any knowledge of JS to
   crossorigin="anonymous"></script>
 <script src="path/to/your/js/formvalidation.js"></script>
 ```
+
+<h1>Conclusion</h1>
+<p>There you have it, folks! Let me know if you have any ideas for more rules!</p>
+<p>Happy coding!</p>
