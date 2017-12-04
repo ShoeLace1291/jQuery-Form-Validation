@@ -28,7 +28,7 @@ A JavaScript form validation library that doesn't require any knowledge of JS to
   </div>
 </form>
 ```
-<p>The code will iterate through all fields that have the data-validate attribute and will determine if the fields pass all the rules that were assigned to it. Rules are separated with a pipe(|) and parameters are determined by any value contained inside two square braces ([) and (]). Not all rules require parameters. Refer to the rule list below. Once the status of your field is determined, a DIV tag containing the appropriate message will be inserted into the input's parent div.  Bootstrap is not required, per se. As long as your form follows the `<div><label><input></div>` nesting structure, it will work fine.</p>
+<p>The code will iterate through all fields that have the data-validate attribute and will determine if the fields pass all the rules that were assigned to it. Rules are separated with a pipe(|) and parameters are determined by any value contained inside two square braces ([) and (]). Not all rules require parameters. Refer to the rule list below. Once the status of your field is determined, a DIV tag containing the appropriate message will be inserted into the input's parent div.  Bootstrap is not required, per se. As long as your form follows the <div><label><input></div> nesting structure, it will work fine.</p>
 
 ```
 <button class="btn btn-primary" data-submit>Submit</button>
