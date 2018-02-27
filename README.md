@@ -1,6 +1,8 @@
 # jQuery-Form-Validation
 A JavaScript form validation library that doesn't require any knowledge of JS to use!
 
+Live Demo - http://demos.scotthlacey.com/form-validation.html
+
 <p>This form validation library was created for people that don't know any sort of JavaScript at all or for those that don't want any JS in their HTML code. It is designed to work with BootStrap forms and its error display.</p>
 <p>All you need to do to make this work is to add a data-validate attribute to any form text field. Inside this attribute, you assign rules to your field along with any parameters it might need.</p>
 <h1>Example</h1>
